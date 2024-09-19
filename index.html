@@ -4,7 +4,7 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Photographe Nina Carducci | Shooting photo, Retouches et Album photos">
-	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.css">
+	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
 	<link rel="stylesheet" href="./assets/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,12 +12,96 @@
 		href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
 		rel="stylesheet">
 	<meta charset="UTF-8">
-	<script src="./assets/bootstrap/bootstrap.bundle.js"></script>
+	<script defer src="./assets/bootstrap/bootstrap.bundle.min.js"></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
 		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-	<script src="./assets/maugallery.js"></script>
-	<script src="./assets/scripts.js"></script>
+	<script defer src="./assets/maugallery.js"></script>
+	<script defer src="./assets/scripts.js"></script>
 	<title>Nina Carducci</title>
+
+	<!-- Open Graph meta (Facebook, Linkedin) -->
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Photographe Nina Carducci" />
+	<meta property="og:description"
+		content="Nina Carducci est une photographe basée sur Bordeaux qui propose des services de shooting, de retouches et d'album partout en France" />
+	<meta property="og:url" content="https://ludorap33.github.io/P9/" />
+	<meta property="og:image" content="https://ludorap33.github.io/P9/assets/images/nina.webp" />
+	<meta property="author" content="Nina Carducci" />
+
+	<!-- Twitter Card data -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="https://ludorap33.github.io/P9/">
+	<meta name="twitter:title" content="Photographe Nina Carducci">
+	<meta name="twitter:description"
+		content="Nina Carducci est une photographe basée sur Bordeaux qui propose des services de shooting, de retouches et d'album partout en France">
+	<meta name="twitter:creator" content="Nina Carducci">
+	<!-- Twitter Summary card images must be at least 200x200px -->
+	<meta name="twitter:image" content="https://ludorap33.github.io/P9/assets/images/nina.webp">
+
+	<!-- Schema.org meta for Google+ -->
+	<meta itemprop="name" content="Nina Carducci" />
+	<meta itemprop="description"
+		content="Nina Carducci est une photographe basée sur Bordeaux qui propose des services de shooting, de retouches et d'album partout en France" />
+	<meta itemprop="image" content="https://ludorap33.github.io/P9/assets/images/nina.webp" />
+	<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "LocalBusiness",
+			"image": "https://ludorap33.github.io/P9/assets/images/nina.webp",
+			"address": {
+				"@type": "PostalAddress",
+				"addressLocality": "Bordeaux",
+				"addressRegion": "Nouvelle-Aquitaine",
+				"postalCode": "33200",
+				"streetAddress": "68 avenue Alsace-Lorraine",
+				"addressCountry": "FR"
+			},
+			"priceRange": "50€ à 400€",
+			"geo": {
+				"@type": "GeoCoordinates",
+				"latitude": 44.846806,
+				"longitude": -0.607187
+			  },
+			"name": "Nina Carducci",
+			"description": "Nina Carducci est une photographe basée sur Bordeaux qui propose des services de shooting, de retouches et d'album partout en France",
+			"openingHours": "Mo,Tu,We,Th,Fr 10:00-19:00",
+			"telephone": "05 56 67 78 89",
+			"url": "https://ludorap33.github.io/P9/",
+			"hasOfferCatalog": {
+				"@type": "OfferCatalog",
+				"name": "Photographies",
+				"itemListElement": [
+				  {
+					"@type": "OfferCatalog",
+					"name": "One-time services",
+					"itemListElement": [
+					  {
+						"@type": "Offer",
+						"itemOffered": {
+						  "@type": "Service",
+						  "name": "Shooting photo"
+						}
+					  },
+					  {
+						"@type": "Offer",
+						"itemOffered": {
+						  "@type": "Service",
+						  "name": "Retouches"
+						}
+					  },
+					  {
+						"@type": "Offer",
+						"itemOffered": {
+						  "@type": "Service",
+						  "name": "Album photos"
+						}
+					  }
+					]
+				  }
+				]
+			  }
+		}
+	</script>
 </head>
 
 <body>
